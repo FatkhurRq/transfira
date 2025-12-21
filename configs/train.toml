@@ -1,0 +1,50 @@
+# TransFIRA Training Configuration
+# Trains dual-head recognizability prediction network (CCS + CCAS)
+
+# Model configuration
+backbone_type = 'onnx'
+model_path = "pretrained_weights/w600k_r50.onnx"
+embedding_size = 512
+
+# Output configuration
+checkpoint_outdir = 'output/checkpoints/'
+save_per_epoch = 1
+
+# Distributed training
+[env]
+dist_url = 'env://'
+
+# Training dataset
+[data]
+data_dir = 'data/WebFace12M/train'
+annotations = 'data/WebFace12M/train_10k.csv'
+path_col_name = 'path'
+ccs_col_name = 'ccs'
+ccas_col_name = 'ccas'
+batch_size = 64
+
+# Validation dataset
+[val]
+data_dir = 'data/WebFace12M/train'
+annotations = 'data/WebFace12M/val_2k.csv'
+path_col_name = 'path'
+ccs_col_name = 'ccs'
+ccas_col_name = 'ccas'
+batch_size = 64
+
+# Optimizer configuration
+[opt]
+optimizer = 'AdamW'
+lr = 1e-6
+weight_decay = 1e-4
+milestones = [300]
+gamma = 0.5
+loss_func = 'MSE'
+num_epochs = 500
+
+# Image preprocessing
+[aug]
+train_rgb_norm = [0.5, 0.5, 0.5]
+test_rgb_std = 0.5
+resize_dim = 112
+crop_dim = 112

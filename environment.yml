@@ -1,0 +1,29 @@
+name: transfira
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.8
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - opencv
+  - pillow
+  - matplotlib
+  - tensorboard
+  - tqdm
+  - pyyaml
+  - pip
+  - pip:
+      - python-box
+      - toml
+      - timm
+      - onnx
+      - onnx2torch
+      - insightface
+      - einops

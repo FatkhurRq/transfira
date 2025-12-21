@@ -1,0 +1,28 @@
+# TransFIRA Testing Configuration
+# Generates features, predicts scores, and aggregates templates
+
+# Model configuration
+backbone_type = 'onnx'
+model_path = "pretrained_weights/w600k_r50.onnx"
+embedding_size = 512
+
+# Score predictor checkpoint (for --predict_scores)
+checkpoint_path = 'pretrained_weights/w600k_r50_transfira_0025.pt'
+
+# Output configuration
+outdir = 'output/test_results/'
+
+# Image preprocessing
+[aug]
+train_rgb_norm = [0.5, 0.5, 0.5]
+test_rgb_std = 0.5
+resize_dim = 112
+crop_dim = 112
+
+# Test dataset
+[data]
+data_dir = ''
+annotations = ''
+path_col_name = 'path'
+id_col_name = 'template_id'
+batch_size = 64

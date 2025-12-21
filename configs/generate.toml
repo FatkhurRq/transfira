@@ -1,0 +1,31 @@
+# TransFIRA Label Generation Configuration
+# Extracts features and computes CCS/NNCCS/CCAS labels from gallery-probe datasets
+
+# Model configuration
+backbone_type = 'onnx'
+model_path = "pretrained_weights/w600k_r50.onnx"
+embedding_size = 512
+
+# Output configuration
+outdir = 'output/generated_labels/'
+batch_size = 64
+save_features = true
+
+# Image preprocessing
+[aug]
+train_rgb_norm = [0.5, 0.5, 0.5]
+test_rgb_std = 0.5
+resize_dim = 112
+crop_dim = 112
+
+# Training dataset
+[train]
+data_dir = 'data/WebFace12M/train'
+annotations = 'data/WebFace12M/train_10k.csv'
+path_col_name = 'path'
+
+# Validation dataset
+[val]
+data_dir = 'data/WebFace12M/train'
+annotations = 'data/WebFace12M/val_2k.csv'
+path_col_name = 'path'
